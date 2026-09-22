@@ -90,9 +90,8 @@ This is a learning project and should not be treated as a production-ready clini
 - The model has not been clinically validated.
 - A prediction of “No” does not mean that someone cannot have a stroke.
 
-## Learning notes
-
-This repository was created as a hands-on way to learn machine learning with Python. Generative AI tools, including Gemini, were used as learning aids while developing and understanding parts of the code.
+## Generative AI Disclaimer
+A lot of this code was written with the help of Gemini. This project was created as a means to teach myself machine learning using python, so I used Gemini to help me learn by doing.
 
 ## License
 
