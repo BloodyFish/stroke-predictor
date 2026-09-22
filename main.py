@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import StratifiedKFold, cross_val_score, train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
@@ -36,7 +36,7 @@ def train_and_evaluate_model():
 
     # 3. Split the data into Training (80%) and Testing (20%) sets
     # This ensures we can test the model on unseen data to check its accuracy
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.5, random_state=42)
 
     # 4. Initialize the machine learning model
     model = RandomForestClassifier(criterion='gini', n_estimators=10, random_state=42)
