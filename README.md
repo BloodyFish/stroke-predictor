@@ -5,7 +5,7 @@ A small Python machine-learning project that explores how health and lifestyle f
 > [!WARNING]
 > **This project is for educational purposes only.** Its predictions are not medical advice, a diagnosis, or a substitute for a qualified healthcare professional. Do not use it to make healthcare decisions.
 
-## What it does
+## 🤔 What it does
 
 The program:
 
@@ -29,7 +29,7 @@ The model uses the following features:
 - BMI
 - Smoking status
 
-## Model performance
+## 📊 Model performance
 
 Using the current training configuration and dataset split, the model achieved:
 
@@ -39,7 +39,7 @@ Model Accuracy: 94.72%
 
 > Accuracy can vary depending on the dataset, preprocessing steps, and training configuration. Because the dataset is imbalanced, accuracy alone should not be used to judge the model's overall performance.
 
-## Requirements
+## 📋 Requirements
 
 - Python 3.9 or newer
 - pandas
@@ -51,7 +51,7 @@ Install the dependencies with:
 python -m pip install pandas scikit-learn
 ```
 
-## Dataset setup
+## 📋 Dataset setup
 
 This project uses the [Stroke Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) from Kaggle.
 
@@ -71,7 +71,7 @@ stroke-predictor/
 └── README.md
 ```
 
-## Run the project
+## 💻 Run the project
 
 From the repository root, run:
 
@@ -81,7 +81,7 @@ python main.py
 
 The script will first train and evaluate the model, then ask you to enter the features required for a prediction. Use the numeric options shown in each prompt—for example, `0` or `1` for yes/no fields.
 
-## Important limitations
+## 📋 Important limitations
 
 This is a learning project and should not be treated as a production-ready clinical model. In particular:
 
@@ -90,7 +90,7 @@ This is a learning project and should not be treated as a production-ready clini
 - The model has not been clinically validated.
 - A prediction of “No” does not mean that someone cannot have a stroke.
 
-## Generative AI Disclaimer
+## 🤔 Generative AI Disclaimer
 A lot of this code was written with the help of Gemini. This project was created as a means to teach myself machine learning using python, so I used Gemini to help me learn by doing.
 
 ## License
